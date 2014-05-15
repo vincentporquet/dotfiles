@@ -30,3 +30,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 bindkey '^[OA' history-substring-search-up
 bindkey '^[OB' history-substring-search-down
 
+# Postgresql needs this. http://stackoverflow.com/a/16204429
+export PGHOST=localhost
